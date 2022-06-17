@@ -71,3 +71,16 @@ input::placeholder {
     font-style: oblique;
 } 
 
+
+@media screen and (max-width:768px) {
+    .converter {
+        height: 80%;
+        max-width: 85%;
+        gap: 1.5rem;
+    }
+
+    .inputs .input {
+        margin-left: 0px;
+    }
+}
+
