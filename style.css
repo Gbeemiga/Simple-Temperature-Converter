@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', 'Sans Serif';
+}
+
+html, body {
+
+    height: 77vh;
+    width: 98.7vw;
+    background-color: dimgrey;
+}
+
+.converter {
+    height: 80%;
+    max-width: 60%;
+    margin: 9rem auto;
+    padding: 1.5rem 2rem;
+    color: aliceblue;
+    background-color: dimgrey;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    filter: drop-shadow(0 5px 20px black);
+    
+}
+
+.converter h3 {
+    text-align: center;
+    font-style: oblique;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.converter .inputs {
+    width: 80%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    color: aliceblue;
+    background-color: transparent;
+    filter: drop-shadow(0 2px 5px black);
+}
+
+.inputs .input {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    margin-left: 0.6rem;
+    margin-top: 0.6rem;
+    border-radius: 0.3rem;
+    color: dimgray;
+    background-color: rgb(205, 206, 207);
+    flex-grow: 1;
+    font-size: 1rem;
+    font-family: 'Montserrat';
+}
+
+
+input::placeholder {
+    color: rgb(53, 54, 55);
+    font-size: 1rem;
+    opacity: 0.5;
+    font-style: oblique;
+} 
+
