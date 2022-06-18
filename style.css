@@ -74,7 +74,7 @@ input::placeholder {
 
 @media screen and (max-width:768px) {
     .converter {
-        height: 80%;
+        height: 30rem;
         max-width: 85%;
         gap: 1.5rem;
     }
