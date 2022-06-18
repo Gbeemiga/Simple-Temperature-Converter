@@ -74,9 +74,13 @@ input::placeholder {
 
 @media screen and (max-width:768px) {
     .converter {
+        margin: 6rem auto;
         height: 30rem;
         max-width: 85%;
         gap: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .inputs .input {
